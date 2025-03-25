@@ -1,0 +1,23 @@
+{
+  "publicPath": "/",
+  "entries": {
+    "main": [
+      "js/framework.js",
+      "js/59.js",
+      "css/main.css",
+      "js/main.js"
+    ]
+  },
+  "pages": {
+    "components-lovetimer-index": [
+      "js/p_components-lovetimer-index.js"
+    ],
+    "index": [
+      "css/p_index.css",
+      "js/p_index.js"
+    ]
+  },
+  "assets": {
+    "src/assets/love.jpeg": "1f0ba0d6"
+  }
+}
