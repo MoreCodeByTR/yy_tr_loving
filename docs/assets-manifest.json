@@ -1,5 +1,5 @@
 {
-  "publicPath": "yy_tr_loving/",
+  "publicPath": "/yy_tr_loving/",
   "entries": {
     "main": [
       "js/framework.js",
