@@ -7,8 +7,4 @@ export default defineConfig(() => ({
   outputDir: 'docs',
   publicPath: '/yy_tr_loving/',
   minify,
-  server: {
-    onDemand: true,
-    format: 'esm',
-  },
 }));
