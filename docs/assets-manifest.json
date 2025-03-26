@@ -9,10 +9,21 @@
     ]
   },
   "pages": {
+    "components-antdtimeline-index": [
+      "js/357.js",
+      "js/p_components-antdtimeline-index.js"
+    ],
     "components-lovetimer-index": [
       "js/p_components-lovetimer-index.js"
     ],
+    "components-timeline-index": [
+      "js/616.js",
+      "css/p_components-timeline-index.css",
+      "js/p_components-timeline-index.js"
+    ],
     "index": [
+      "js/357.js",
+      "js/616.js",
       "css/p_index.css",
       "js/p_index.js"
     ]
