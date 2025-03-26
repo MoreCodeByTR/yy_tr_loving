@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const startDate = new Date('2023-10-7 00:00:00'); // 恋爱开始日期
+const startDate = new Date('2023/10/7 00:00:00'); // 恋爱开始日期
 
 function LoveTimer() {
  // 恋爱开始日期
