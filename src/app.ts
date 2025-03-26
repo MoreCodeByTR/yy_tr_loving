@@ -4,6 +4,6 @@ import { defineAppConfig } from 'ice';
 export default defineAppConfig(() => ({
   // Set your configs here.
   router: {
-    basename: '/yy_tr_loving/',
+    basename: '/yy_tr_loving',
   },
 }));

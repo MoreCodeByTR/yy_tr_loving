@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["style-handler-namespace:/Users/tianrui/projects/yy_tr_loving/src/pages/index.module.css", "../../src/assets/love.jpeg", "../../src/pages/index.tsx"],
+  "sourcesContent": ["module.exports = {\n  \"app\": \"src-pages-index-module-css__app\",\n  \"link\": \"src-pages-index-module-css__link\",\n  \"button\": \"src-pages-index-module-css__button\"\n};", "module.exports = \"/assets/love.02d7fcad.jpeg\"", "import styles from './index.module.css';\nimport LoveTimer from './components/LoveTimer';\n\nimport loveImg from '@/assets/love.jpeg';\nimport Timeline from './components/Timeline';\nimport AntdTimeline from './components/AntdTimeline';\n\nexport default function IndexPage() {\n  return (\n    <div className={styles.app}>\n      {/* <LoveTimer /> */}\n      <AntdTimeline />\n      <Timeline />\n      <img src={loveImg} height={100} />\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;AAAA,WAAO,UAAU;AAAA,MACf,OAAO;AAAA,MACP,QAAQ;AAAA,MACR,UAAU;AAAA,IACZ;AAAA;AAAA;;;ACJA;AAAA;AAAA,WAAO,UAAU;AAAA;AAAA;;;ACAjB,0BAAmB;AAGnB,kBAAoB;;AAIL,SAAf,YAAwBA;AACtB,SACE,wBAACC,OAAAA;IAAIC,WAAWC,oBAAAA,QAAOC;;MAErB,wBAACC,sBAAAA,CAAAA,GAAAA,QAAAA,OAAAA;;;;;MACD,wBAACC,kBAAAA,CAAAA,GAAAA,QAAAA,OAAAA;;;;;MACD,wBAACC,OAAAA;QAAIC,KAAKC,YAAAA;QAASC,QAAQ;;;;;;;;;;;;AAGjC;",
+  "names": ["IndexPage", "div", "className", "styles", "app", "AntdTimeline", "Timeline", "img", "src", "loveImg", "height"]
+}
